@@ -1,8 +1,6 @@
 // declare your functions here...
 
 
-$(function(){
-  
   function paragraphSelector(){
     return $('p')
   }
@@ -22,4 +20,3 @@ $(function(){
   function firstListItem(){
     return $('ul li:#pic-list')
   }
-})
